@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "恢复训练1", ".", "{33216603-430D-4F72-8F2E-B5BBBF11872F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{a1ad3c57-36c3-441a-8adc-8b892bad9329}|BLL.dll;{EB565744-DCF6-449A-87A4-40B0672B511B}|DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62497"
+		Debug.AspNetCompiler.PhysicalPath = "..\恢复训练1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62497\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62497"
+		Release.AspNetCompiler.PhysicalPath = "..\恢复训练1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62497\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62497"
+		SlnRelativePath = "..\恢复训练1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{EB565744-DCF6-449A-87A4-40B0672B511B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{A1AD3C57-36C3-441A-8ADC-8B892BAD9329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33216603-430D-4F72-8F2E-B5BBBF11872F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33216603-430D-4F72-8F2E-B5BBBF11872F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33216603-430D-4F72-8F2E-B5BBBF11872F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{33216603-430D-4F72-8F2E-B5BBBF11872F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EB565744-DCF6-449A-87A4-40B0672B511B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB565744-DCF6-449A-87A4-40B0672B511B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB565744-DCF6-449A-87A4-40B0672B511B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB565744-DCF6-449A-87A4-40B0672B511B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AD3C57-36C3-441A-8ADC-8B892BAD9329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AD3C57-36C3-441A-8ADC-8B892BAD9329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AD3C57-36C3-441A-8ADC-8B892BAD9329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AD3C57-36C3-441A-8ADC-8B892BAD9329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AC81D0-8753-4F94-B440-24538D55E0C1}
+	EndGlobalSection
+EndGlobal

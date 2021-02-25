@@ -1,0 +1,9 @@
+D:\asp.net\恢复训练1\BLL\bin\Debug\BLL.dll
+D:\asp.net\恢复训练1\BLL\bin\Debug\BLL.pdb
+D:\asp.net\恢复训练1\BLL\bin\Debug\DAL.dll
+D:\asp.net\恢复训练1\BLL\bin\Debug\DAL.pdb
+D:\asp.net\恢复训练1\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\asp.net\恢复训练1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\asp.net\恢复训练1\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\asp.net\恢复训练1\BLL\obj\Debug\BLL.dll
+D:\asp.net\恢复训练1\BLL\obj\Debug\BLL.pdb
