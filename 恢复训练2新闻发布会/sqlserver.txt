@@ -1,0 +1,25 @@
+create database 恢复训练2新闻发布会
+go
+use 恢复训练2新闻发布会
+go
+create table UserInfo
+(
+UserId int primary key identity(1,1),
+UserName varchar(50) not null,
+Pwd varchar(50) not null
+)
+insert into UserInfo values('林艺鑫','123')
+go
+create table ArticInfo
+(
+ArticID  int primary key identity(1,1),
+ArticTitle Varchar(50)  null,
+MainContent Varchar(50)  null,
+ArticContent varchar(50)  null,
+AuthorName varchar(200)  null,
+IsReview bit default(0)  null,
+Createtime datetime  default(getdate())  null,
+)
+insert into NewsInfo values('程序员的品质','介绍程序员的素质','张三',0,default)
+insert into NewsInfo values('中心厨房','介绍素质','李四',0,default)
+insert into NewsInfo values('玫琳凯是的','介绍程素质','王五',0,default)

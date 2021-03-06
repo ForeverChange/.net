@@ -1,0 +1,6 @@
+D:\asp.net\恢复训练2新闻发布会\DAL\bin\Debug\DAL.dll
+D:\asp.net\恢复训练2新闻发布会\DAL\bin\Debug\DAL.pdb
+D:\asp.net\恢复训练2新闻发布会\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\asp.net\恢复训练2新闻发布会\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\asp.net\恢复训练2新闻发布会\DAL\obj\Debug\DAL.dll
+D:\asp.net\恢复训练2新闻发布会\DAL\obj\Debug\DAL.pdb
