@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "恢复训练3题目添加", ".", "{81C16495-BFA1-4512-9C71-1E19A97456E9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{9b12f2c4-4477-438f-bf40-be0312c68888}|BLL.dll;{99E442B5-AFCC-41A3-9BC4-14BF2FCEA2BC}|DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57197"
+		Debug.AspNetCompiler.PhysicalPath = "..\恢复训练3题目添加\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57197\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57197"
+		Release.AspNetCompiler.PhysicalPath = "..\恢复训练3题目添加\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57197\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57197"
+		SlnRelativePath = "..\恢复训练3题目添加\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{99E442B5-AFCC-41A3-9BC4-14BF2FCEA2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{9B12F2C4-4477-438F-BF40-BE0312C68888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81C16495-BFA1-4512-9C71-1E19A97456E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C16495-BFA1-4512-9C71-1E19A97456E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C16495-BFA1-4512-9C71-1E19A97456E9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C16495-BFA1-4512-9C71-1E19A97456E9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{99E442B5-AFCC-41A3-9BC4-14BF2FCEA2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E442B5-AFCC-41A3-9BC4-14BF2FCEA2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E442B5-AFCC-41A3-9BC4-14BF2FCEA2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E442B5-AFCC-41A3-9BC4-14BF2FCEA2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B12F2C4-4477-438F-BF40-BE0312C68888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B12F2C4-4477-438F-BF40-BE0312C68888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B12F2C4-4477-438F-BF40-BE0312C68888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B12F2C4-4477-438F-BF40-BE0312C68888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45C3C245-8B77-471D-9EC0-2A95A7CD3945}
+	EndGlobalSection
+EndGlobal
