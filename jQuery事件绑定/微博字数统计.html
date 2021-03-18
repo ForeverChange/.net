@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-3.6.0.js" ></script>
+		<script>
+//			$(document).ready(function (){   //开始
+//			$('#txt').keydown(function (){   //事件
+//				var cd =$('#txt').val().length;   //找到内容的长度 
+//				$("span").html(100-cd);       // 找到span 变量
+//				if(cd >= 100)					//判断有没有大于100 
+//				{
+//					$('#txt').prop('disabled',true)
+//				}
+//			})
+//			})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</script>
+		<script>
+			$(document).ready(function() {
+				$('#txt').keydown(function() {
+					var cd=		$('#txt').val().length;
+					$('span').html(100-cd);
+					if(cd >=100){
+						$('#txt').prop("disabled",true);
+					}
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<p id="sr">你还可以输入<span>100</span>个字</p>
+		<br>
+		<textarea cols="" rows=""    id="txt"></textarea>
+	</body>
+</html>

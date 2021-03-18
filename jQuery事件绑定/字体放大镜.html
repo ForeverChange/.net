@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			li{
+				list-style: none;
+				font-size: 20px;
+			
+			}
+		</style>
+		<script src="js/jquery-3.6.0.js"></script>
+		<script>
+			$(document).ready(function(){
+				
+				$('li').hover(function(){
+					$(this).css('font-size','40px')
+				},function(){
+					$(this).css('font-size','20px')
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<ul>
+			<li>aaaaaaaaaaa</li>
+			<li>bbbbbbbbbbb</li>
+			<li>ccccccccccc</li>
+			<li>dddddddddddd</li>
+		</ul>
+	</body>
+</html>
